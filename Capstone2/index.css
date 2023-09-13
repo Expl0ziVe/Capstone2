@@ -1,0 +1,75 @@
+.page {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.intro {
+    background-color:#F87D09 ;
+    height: 100vh;
+}
+
+.sun {
+    height: 400px;
+}
+
+.icontent {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hi {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hi >h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Caveat', cursive;
+    font-family: 'Lugrasimo', cursive;
+    font-family: 'Playball', cursive;
+    font-size: 70px;
+}
+
+.me {
+    background-color:#F6F6F6;
+    height:80vh;
+}
+
+.eu {
+    height: 200px;
+    border-radius: 100px;
+}
+
+.skills {
+    background-color: #F6F6F6;
+    height:80vh;
+}
+
+.reach {
+    background-color: #A7CDCC;
+    height:60vh;
+}
+
+.personal{
+    background-color:#004A55 ;
+    height: 10vh;
+}
+
+.fot{
+    background-color: #004A55;
+    height: 10vh;
+}
+
+@media (max-width: 600px) {
+    .hi {
+        text-align: center;
+    }
+}
